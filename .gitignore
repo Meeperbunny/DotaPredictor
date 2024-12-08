@@ -2,7 +2,8 @@
 bazel-bin/
 bazel-out/
 bazel-testlogs/
-bazel-*/  # Any symlinks Bazel creates
+# Ignore Bazel output directories
+bazel-*
 
 # Ignore Bazel lock files
 MODULE.bazel.lock
