@@ -1,0 +1,22 @@
+# Ignore Bazel build outputs
+bazel-bin/
+bazel-out/
+bazel-testlogs/
+bazel-*/  # Any symlinks Bazel creates
+
+# Ignore Bazel lock files
+MODULE.bazel.lock
+
+# Ignore temporary and log files
+*.log
+*.tmp
+*.cache
+*.swp
+*.bak
+
+# Ignore Visual Studio Code settings (if using VS Code)
+.vscode/
+
+# Ignore system files (optional but recommended)
+.DS_Store       # macOS
+Thumbs.db       # Windows
